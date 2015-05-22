@@ -1,6 +1,8 @@
 // Creates two plots:
 // The first contains a function f(x) = exp(-x^2/2), the analytic derivative -x*exp(-x^2/2)
 // and numerical derivatives based on the difference quotient for three different amount of nodes
+// The second contains the numerical derivative where the function value contains an error by adding
+// a normal distributed number in the interval [-0.001,0.001] for two different amount of nodes
 
 clear
 
